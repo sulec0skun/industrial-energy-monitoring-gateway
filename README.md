@@ -74,7 +74,7 @@ The simulator saves its local progress in `data/simulator_state.json`. That file
 
 ## Prerequisites
 
-- Python 3.11 or later (use a compatible supported Python version for the pinned requirements)
+- Python 3.12 or later (use a compatible supported Python version for the pinned requirements)
 - PostgreSQL (tested locally with version 18)
 - Mosquitto MQTT broker (port `1883`)
 - The repository's sample CSV and Python dependencies
@@ -84,8 +84,8 @@ The examples below use **PowerShell on Windows**. On other operating systems, us
 ### 1. Download and install the Python dependencies
 
 ```powershell
-git clone <YOUR_REPOSITORY_URL>
-cd Industrial-Energy-Monitoring-Gateway
+git clone https://github.com/sulec0skun/industrial-energy-monitoring-gateway.git
+cd industrial-energy-monitoring-gateway
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
