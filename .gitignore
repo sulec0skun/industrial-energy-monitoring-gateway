@@ -1,0 +1,7 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+data/simulator_state.json
+data/simulator_state.json.tmp
+data/simulator_state*.json
