@@ -4,6 +4,18 @@ A local, Python-based industrial IoT demonstration that replays real photovoltai
 
 The project models a practical telemetry pipeline rather than importing a CSV directly into a database. It includes application-level database acknowledgments, resumable replay, duplicate protection, historical charts, estimated PV energy production, and configurable demo alerts.
 
+## Dashboard Preview
+
+The screenshots below show the actual Streamlit dashboard running locally.
+
+<p align="center">
+  <img src="assets/dashboard-overview.png" alt="Dashboard Overview" width="90%">
+</p>
+
+<p align="center">
+  <img src="assets/dashboard-overview1.png" alt="Dashboard Detail 1" width="49%">
+  <img src="assets/dashboard-overview2.png" alt="Dashboard Detail 2" width="49%">
+</p>
 ## Architecture
 
 ```text
