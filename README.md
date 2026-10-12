@@ -86,6 +86,18 @@ The simulator saves its local progress in `data/simulator_state.json`. That file
 
 ## Prerequisites
 
+**Required software must be installed separately before running this project.**
+
+- [Python 3.12+](https://www.python.org/downloads/)
+- [PostgreSQL](https://www.postgresql.org/download/windows/)
+- [Eclipse Mosquitto MQTT Broker](https://mosquitto.org/download/)
+- [Git](https://git-scm.com/downloads) (optional; ZIP download is also supported)
+
+**Important:** Installing requirements.txt only installs Python packages. It does not install PostgreSQL or Mosquitto.
+
+During PostgreSQL installation, remember the postgres user password and use port 5432. Ensure Mosquitto is running on port 1883.
+
+
 - Python 3.12 or later (use a compatible supported Python version for the pinned requirements)
 - PostgreSQL (tested locally with version 18)
 - Mosquitto MQTT broker (port `1883`)
